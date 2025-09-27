@@ -8,7 +8,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/hipotesis1" element={
+  <Route path="/home" element={
           <>
             <div className="main-content">
               <Home />
@@ -16,7 +16,7 @@ function App() {
             <Footer />
           </>
         } />
-        <Route path="/" element={<Navigate to="/hipotesis1" replace />} />
+  <Route path="/" element={<Navigate to="/home" replace />} />
       </Routes>
     </BrowserRouter>
   );
