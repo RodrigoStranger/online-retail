@@ -43,34 +43,39 @@
 
 # Análisis de Datos: Online Retail II
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
-[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
-[![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458.svg)](https://pandas.pydata.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+## Tecnologías Utilizadas
 
-## 📝 Descripción del Proyecto
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=plotly&logoColor=white)](https://matplotlib.org/)
+[![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://seaborn.pydata.org/)
+[![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)](https://plotly.com/)
+
+## Descripción del Proyecto
 
 Este proyecto presenta un análisis completo del dataset **Online Retail II**, que contiene transacciones de una tienda minorista en línea con sede en el Reino Unido. El análisis incluye limpieza de datos, exploración de datos (EDA), y visualizaciones para extraer insights valiosos sobre patrones de compra, comportamiento de clientes y tendencias de ventas.
 
 ### Objetivos del Proyecto:
-- 🧹 **Data Wrangling**: Limpieza y preprocesamiento de datos para asegurar la calidad del análisis
-- 🔍 **Análisis Exploratorio de Datos (EDA)**: Descubrimiento de patrones, tendencias y anomalías en las transacciones
-- 📈 **Visualización de Datos**: Creación de gráficos informativos para comunicar hallazgos
-- 💡 **Generación de Insights**: Identificación de oportunidades de negocio y recomendaciones
+- **Data Wrangling**: Limpieza y preprocesamiento de datos para asegurar la calidad del análisis
+- **Análisis Exploratorio de Datos (EDA)**: Descubrimiento de patrones, tendencias y anomalías en las transacciones
+- **Visualización de Datos**: Creación de gráficos informativos para comunicar hallazgos
+- **Generación de Insights**: Identificación de oportunidades de negocio y recomendaciones
 
 ---
 
-## 📄 Documentos de Visualización
+## Documentos de Visualización
 
-[![EDA PDF](https://img.shields.io/badge/📊_EDA-Análisis_Exploratorio-red.svg)](./pdf/Rodrigo_Infanzon_Acosta_OnlineRetail_EDA.pdf)
-[![Data Wrangling PDF](https://img.shields.io/badge/🧹_Data_Wrangling-Limpieza_de_Datos-blue.svg)](./pdf/Rodrigo_Infanzon_Acosta_OnlineRetail_Data_Wrangling.pdf)
+[![EDA PDF](https://img.shields.io/badge/EDA-Análisis_Exploratorio-DC143C?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](./pdf/Rodrigo_Infanzon_Acosta_OnlineRetail_EDA.pdf)
+[![Data Wrangling PDF](https://img.shields.io/badge/Data_Wrangling-Limpieza_de_Datos-1E90FF?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](./pdf/Rodrigo_Infanzon_Acosta_OnlineRetail_Data_Wrangling.pdf)
 
 ---
 
-## 📊 Datasets
+## Datasets
 
-[![Dataset Original](https://img.shields.io/badge/📂_Dataset-Original_(94.8_MB)-yellow.svg)](./dataset/online_retail_II.csv)
-[![Dataset Limpio](https://img.shields.io/badge/📂_Dataset-Limpio_(70.5_MB)-green.svg)](./dataset/online_retail_II_cleaned.csv)
+[![Dataset Original](https://img.shields.io/badge/Dataset-Original_(94.8_MB)-FFD700?style=for-the-badge&logo=databricks&logoColor=white)](./dataset/online_retail_II.csv)
+[![Dataset Limpio](https://img.shields.io/badge/Dataset-Limpio_(70.5_MB)-32CD32?style=for-the-badge&logo=databricks&logoColor=white)](./dataset/online_retail_II_cleaned.csv)
 
 ### Descripción de los Datasets:
 - **`online_retail_II.csv`**: Dataset original con todas las transacciones sin procesar
@@ -78,43 +83,33 @@ Este proyecto presenta un análisis completo del dataset **Online Retail II**, q
 
 ---
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 online-retail/
 │
-├── 📓 colab/                                    # Notebooks de Google Colab
+├── colab/                                       # Notebooks de Google Colab
 │   ├── Rodrigo_Infanzon_Acosta_OnlineRetail_DataWrangling.ipynb
 │   └── Rodrigo_Infanzon_Acosta_OnlineRetail_EDA.ipynb
 │
-├── 📊 dataset/                                  # Datasets del proyecto
+├── dataset/                                     # Datasets del proyecto
 │   ├── online_retail_II.csv                    # Dataset original
 │   └── online_retail_II_cleaned.csv            # Dataset limpio
 │
-├── 📄 pdf/                                      # Documentación en PDF
+├── pdf/                                         # Documentación en PDF
 │   ├── Rodrigo_Infanzon_Acosta_OnlineRetail_EDA.pdf
 │   └── Rodrigo_Infanzon_Acosta_OnlineRetail_Data_Wrangling.pdf
 │
-├── 📚 referencias/                              # Material de referencia
+├── referencias/                                 # Material de referencia
 │   └── [Artículos académicos y referencias]
 │
-└── 📖 README.md                                 # Este archivo
+├── LICENSE                                      # Licencia Apache 2.0
+└── README.md                                    # Este archivo
 ```
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
-
-- **Python 3.8+**: Lenguaje de programación principal
-- **Pandas**: Manipulación y análisis de datos
-- **NumPy**: Operaciones numéricas
-- **Matplotlib**: Visualización de datos
-- **Seaborn**: Visualización estadística
-- **Jupyter Notebook**: Entorno de desarrollo interactivo
-
----
-
-## 🚀 Cómo Ejecutar el Proyecto
+## Cómo Ejecutar el Proyecto
 
 ### Opción 1: Google Colab (Recomendado)
 1. Abre los notebooks en la carpeta `colab/`
@@ -138,7 +133,7 @@ jupyter notebook
 
 ---
 
-## 📈 Principales Hallazgos
+## Principales Hallazgos
 
 Los análisis detallados se encuentran en los PDFs de visualización. Algunos insights incluyen:
 - Identificación de productos más vendidos
@@ -148,13 +143,13 @@ Los análisis detallados se encuentran en los PDFs de visualización. Algunos in
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
 **Rodrigo Infanzón Acosta**
 Ingeniería de Software - Universidad La Salle de Arequipa
 
 ---
 
-## 📧 Contacto
+## Contacto
 
 Para consultas o sugerencias sobre el proyecto, no dudes en contactar.
