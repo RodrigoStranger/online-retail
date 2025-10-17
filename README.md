@@ -10,10 +10,11 @@
                 <span style="font-weight:bold;">FACULTAD DE INGENIERÍAS Y ARQUITECTURA</span><br />
                 <span style="font-weight:bold;">DEPARTAMENTO ACADEMICO DE INGENIERÍA Y MATEMÁTICAS</span><br />
                 <span style="font-weight:bold;">CARRERA PROFESIONAL DE INGENIERÍA DE SOFTWARE</span>
-            </th>
+            </th>            
         </tr>
     </thead>
 </table>
+</div>
 
 <div align="center">
   <h2 style="font-weight:bold;">INTELIGENCIA DE NEGOCIOS Y MINERÍA DE DATOS</h2>
@@ -37,6 +38,8 @@
     </tbody>
 </table>
 </div>
+
+
 
 # Análisis de Datos: Online Retail II
 
@@ -155,9 +158,3 @@ Ingeniería de Software - Universidad La Salle de Arequipa
 ## 📧 Contacto
 
 Para consultas o sugerencias sobre el proyecto, no dudes en contactar.
-
----
-
-<div align="center">
-    <i>Proyecto desarrollado como parte del curso de Ingeniería Web</i>
-</div>
