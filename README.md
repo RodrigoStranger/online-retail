@@ -39,8 +39,6 @@
 </table>
 </div>
 
-
-
 # Análisis de Datos: Online Retail II
 
 ## Tecnologías Utilizadas
@@ -63,14 +61,18 @@ Este proyecto presenta un análisis completo del dataset **Online Retail II**, q
 - **Visualización de Datos**: Creación de gráficos informativos para comunicar hallazgos
 - **Generación de Insights**: Identificación de oportunidades de negocio y recomendaciones
 
----
+
+## Notebooks Jupyter
+
+[![Data Wrangling Notebook](https://img.shields.io/badge/Data_Wrangling-Notebook-FF6F00?style=for-the-badge&logo=jupyter&logoColor=white)](./colab/Rodrigo_Infanzon_Acosta_OnlineRetail_DataWrangling.ipynb)
+[![EDA Notebook](https://img.shields.io/badge/EDA-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](./colab/Rodrigo_Infanzon_Acosta_OnlineRetail_EDA.ipynb)
+
 
 ## Documentos de Visualización
 
 [![EDA PDF](https://img.shields.io/badge/EDA-Análisis_Exploratorio-DC143C?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](./pdf/Rodrigo_Infanzon_Acosta_OnlineRetail_EDA.pdf)
 [![Data Wrangling PDF](https://img.shields.io/badge/Data_Wrangling-Limpieza_de_Datos-1E90FF?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](./pdf/Rodrigo_Infanzon_Acosta_OnlineRetail_Data_Wrangling.pdf)
 
----
 
 ## Datasets
 
@@ -81,7 +83,6 @@ Este proyecto presenta un análisis completo del dataset **Online Retail II**, q
 - **`online_retail_II.csv`**: Dataset original con todas las transacciones sin procesar
 - **`online_retail_II_cleaned.csv`**: Dataset procesado después de la limpieza de datos (eliminación de valores nulos, duplicados, y corrección de inconsistencias)
 
----
 
 ## Estructura del Proyecto
 
@@ -107,8 +108,6 @@ online-retail/
 └── README.md                                    # Este archivo
 ```
 
----
-
 ## Cómo Ejecutar el Proyecto
 
 ### Opción 1: Google Colab (Recomendado)
@@ -131,8 +130,6 @@ pip install pandas numpy matplotlib seaborn jupyter
 jupyter notebook
 ```
 
----
-
 ## Principales Hallazgos
 
 Los análisis detallados se encuentran en los PDFs de visualización. Algunos insights incluyen:
@@ -141,15 +138,14 @@ Los análisis detallados se encuentran en los PDFs de visualización. Algunos in
 - Segmentación de clientes
 - Análisis de frecuencia y valor de transacciones
 
----
-
 ## Autor
 
 **Rodrigo Infanzón Acosta**
 Ingeniería de Software - Universidad La Salle de Arequipa
 
----
 
 ## Contacto
 
-Para consultas o sugerencias sobre el proyecto, no dudes en contactar.
+Para consultas o sugerencias sobre el proyecto, no dudes en contactar:
+
+**Email:** rinfanzona@ulasalle.edu.pe
