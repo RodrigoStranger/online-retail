@@ -141,6 +141,8 @@ Los análisis detallados se encuentran en los PDFs de visualización. Algunos in
 ## Autor
 
 **Rodrigo Infanzón Acosta**
+
+
 Ingeniería de Software - Universidad La Salle de Arequipa
 
 
