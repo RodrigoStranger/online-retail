@@ -16,7 +16,7 @@
 </table>
 
 <div align="center">
-  <h2 style="font-weight:bold;">INGENIERÍA WEB</h2>
+  <h2 style="font-weight:bold;">INTELIGENCIA DE NEGOCIOS Y MINERÍA DE DATOS</h2>
 </div>
 
 <div align="center">
@@ -37,8 +37,6 @@
     </tbody>
 </table>
 </div>
-
----
 
 # Análisis de Datos: Online Retail II
 
